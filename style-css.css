@@ -1,26 +1,28 @@
 body{
     scroll-behavior: smooth;
     display: flex;
-    gap: 20%;
-}
-.container{
-    display: flex;
-    gap: 20px;
+    
 }
 
-.listt{
+nav{
     display: flex;
-    gap: 20%;
-    justify-content: space-around;
-    align-items: center;
-    margin-left: 50%;
+    place-content: space-between;
+
 }
 
-ul {
+ul{
+    display: flex;
     list-style-type: none;
-    }
+    place-content: space-between;
+    margin: 0;
+    padding: 0;
+    align-items: center;
 
-img{
-    width: 100px;
-    height: 100px;
+}
+li{
+    margin: 15%;
+}
+a{
+    text-decoration: none;
+    color: black;
 }
