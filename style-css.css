@@ -1,0 +1,26 @@
+body{
+    scroll-behavior: smooth;
+    display: flex;
+    gap: 20%;
+}
+.container{
+    display: flex;
+    gap: 20px;
+}
+
+.listt{
+    display: flex;
+    gap: 20%;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 50%;
+}
+
+ul {
+    list-style-type: none;
+    }
+
+img{
+    width: 100px;
+    height: 100px;
+}
