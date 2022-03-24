@@ -40,8 +40,8 @@ ul{
 }
 
 .zdj{
-    width: 100px;
-    height: 200px;
+    
+    
 }
 
 
@@ -59,10 +59,25 @@ ul{
 
 .opis-lewy{
     display: flex;
+    margin-bottom: 5%;
 }
 
 .opis-prawy{
     display: flex;
+    margin-bottom: 5%;
 }
 
 
+.zdj-left{
+    width: 20%;
+    margin-left: 10%;
+}
+
+.tekst-lewy{
+    margin-left: 5%;
+}
+
+.zdj-right{
+    width: 20%;
+    margin-right: 5%;
+}
