@@ -1,6 +1,7 @@
 body{
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
 }
 
 nav{
@@ -53,4 +54,21 @@ a{
     67%{
         background-image: url(IMAGES/background-3.jpg);
     }
+}
+
+
+
+.main-section{
+    display: flex;
+    align-items: center;
+}
+
+.welcome{
+    color: white;
+}
+
+.traits{
+    display: flex;
+    align-items: center;
+    height: 100%;
 }
