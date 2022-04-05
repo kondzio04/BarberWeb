@@ -61,15 +61,70 @@ a{
 .main-section{
     display: flex;
     align-items: center;
+    justify-items: center;
+    height: 100%;
 }
 
 .welcome{
     color: white;
 }
 
-.traits{
+.traits-begin{
     display: flex;
+    flex-direction: column;
     align-items: center;
+    justify-content: center;
     height: 100%;
+    background-color: rgb(20, 20, 255);
 }
 
+
+.more-inf{
+    height: 30%;
+}
+
+
+
+
+.circle-barber{
+    width: 30%;
+}
+
+.zdj-left{
+    height: 50%;
+}
+
+#main-name{
+    font-size: 500%;
+}
+
+
+
+.traits-left{
+    height: 100%;
+    background-color: red;
+}
+
+.traits-right{
+    height: 100%;
+    background-color: rgb(20, 20, 255);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    background-color: black;
+    color: white;
+    display: flex;
+
+}
