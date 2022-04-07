@@ -2,7 +2,22 @@ body{
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
+
+
+    scroll-snap-type: mandatory;
+    scroll-snap-points-y: repeat(100vh);
+    scroll-snap-type: y mandatory;
+
 }
+
+
+section {
+    scroll-snap-align: start;
+    position: relative;
+  }
+
+
+
 
 nav{
     display: flex;
@@ -71,16 +86,36 @@ a{
 
 .traits-begin{
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    background-image: url(IMAGES/wallpaper-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 100%;
-    background-color: rgb(20, 20, 255);
+    
+}
+
+
+.more-text{
+    
+   
+    margin: 5%;
+    width: 200px;
+    height: 100px;
+    display: inline-block;
+     
+    font-size: 300%;
+    transform: skewY(-30deg);
+}
+
+.text-right{
+    color: red;
 }
 
 
 .more-inf{
-    height: 30%;
+    margin: 2%;
+    width: 35%;
+    height: 90%;
+    
 }
 
 
@@ -95,6 +130,7 @@ a{
 }
 
 #main-name{
+    
     font-size: 500%;
 }
 
