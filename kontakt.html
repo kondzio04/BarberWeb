@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="contact.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,5 +9,33 @@
 </head>
 <body>
     KONTAKT
+
+<form>
+    
+
+    <div class="box">
+        <form action="insert.php" method="POST">
+            <span class="text-center">message</span>
+        <div class="input-container">
+            <input type="text" required="" name="name"/>
+            <label>Full Name</label>		
+        </div>
+        <div class="input-container">		
+            <input type="mail" required="" name="email"/>
+            <label>Email</label>
+        </div>
+
+        <div class="input-container">		
+            <input type="text" required="" name="message"/>
+            <label>Message</label>
+        </div>
+
+            <button   name="submit" type="submit" class="btn">submit</button>
+    </form>	
+    </div>
+
+
+</form>
+
 </body>
 </html>
