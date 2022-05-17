@@ -1,6 +1,6 @@
 <?php
 
-$db = mysqli_connect("localhost", "Konrad1", "konradjestsuper", "test-jd");
+$db = mysqli_connect("%", "Konrad1", "konradjestsuper", "test-jd");
 
 if(!$db)
 {
