@@ -24,8 +24,19 @@ if(isset($_POST['submit']) && !empty($_POST['submit']))
 
 
     $insert = mysqli_connect($db, "INSERT INTO 'wiadomosci-jd'('imię', 'email', 'tresc-jd') VALUES ('$name', '$email', '$message') ");
-}
 
+    if(!$insert){
+        printf("Wystąpił błąd %s\n", mysqli_error($link));
+    }
+    else{
+        echo "twoja wiadomosc zostalo wyslana ";
+    }
+
+}
+else{
+    echo "Brak danych w formaluarzu";
+}
+mysqli_close($db);
 ?>
 
 
