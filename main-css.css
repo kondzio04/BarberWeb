@@ -75,9 +75,18 @@ a{
 
 .main-section{
     display: flex;
-    align-items: center;
-    justify-items: center;
+    
+    
     height: 100%;
+}
+
+.title1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10%;
+    
 }
 
 .welcome{
@@ -95,15 +104,11 @@ a{
 
 
 .more-text{
-    
-   
+
     margin: 5%;
     width: 200px;
     height: 100px;
-    display: inline-block;
-     
-    font-size: 300%;
-    transform: skewY(-30deg);
+    
 }
 
 .text-right{
@@ -126,11 +131,13 @@ a{
 }
 
 .zdj-left{
-    height: 50%;
+    height: 80%;
 }
 
 #main-name{
     
+    justify-content: flex-start;
+    align-content: flex-start;
     font-size: 500%;
 }
 
@@ -138,7 +145,7 @@ a{
 
 .traits-left{
     height: 100%;
-    background-color: red;
+    display: flex;
 }
 
 .traits-right{
