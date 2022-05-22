@@ -250,12 +250,35 @@ a{
 
 
 
-
+.map{
+    width: 30%;
+    height: 90%;
+    border: none;
+}
 
 
 footer{
     background-color: black;
     color: white;
+    height: 40%;
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
 
+}
+
+
+
+
+
+.oferta{
+    display: flex;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    margin: 10px;
 }
