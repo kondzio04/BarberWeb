@@ -282,6 +282,7 @@ a{
 
 .icon-2{
     width: 5%;
+    padding-right: 1%;
 }
 
 
@@ -302,11 +303,18 @@ footer{
 
 
 
-
+.oferta-body{
+    background-image: url(IMAGES/wallpaper-7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200%;
+    width: 100%;
+}
 
 .oferta{
     display: flex;
     flex-wrap: wrap;
+
 }
 
 .box{
@@ -316,3 +324,9 @@ footer{
     margin: 10px;
 }
 
+.oferta-reszta{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
