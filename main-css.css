@@ -257,6 +257,34 @@ a{
 }
 
 
+.information li{
+    list-style: none;
+    display: flex;
+    font-size: 20px;
+    padding: 1%;
+    
+    
+}
+
+
+
+
+
+.information li:hover{
+    color: blue;
+    
+}
+
+
+.logo-footer{
+    width: 40%;
+}
+
+.icon-2{
+    width: 5%;
+}
+
+
 footer{
     background-color: black;
     color: white;
@@ -264,7 +292,8 @@ footer{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    
+    padding-left: 5%;
+    padding-right: 5%;
 
 }
 
@@ -272,8 +301,12 @@ footer{
 
 
 
+
+
+
 .oferta{
     display: flex;
+    flex-wrap: wrap;
 }
 
 .box{
@@ -282,3 +315,4 @@ footer{
     background-color: blue;
     margin: 10px;
 }
+
