@@ -10,32 +10,28 @@
 <body>
     KONTAKT
 
-<form>
-    
 
-    <div class="box">
-        <form action="insert.php" method="POST">
-            <span class="text-center">message</span>
-        <div class="input-container">
-            <input type="text" name="name"/>
-            <label>Full Name</label>		
+    <form action="insert.php" method="POST">
+        <div class="">
+            <label>Imię</label>
+            <input class="" name="Imie" placeholder="Imię">
         </div>
-        <div class="input-container">		
-            <input type="text"  name="email"/>
-            <label>Email</label>
+        <div class="form-group">
+            <label for="exampleInputPassword1">E-mail</label>
+            <input name="E-mail" class="form-control"  placeholder="E-mail">
         </div>
-
-        <div class="input-container">		
-            <input type="text" name="message"/>
-            <label>Message</label>
+        <div class="form-group">
+            <label for="exampleFormControlTextarea1">Co chcesz nam powiedzieć</label>
+            <textarea name="Tekst" class="form-control" rows="3" placeholder="Co masz do powiedzenia"></textarea>
         </div>
-
-            <button   name="submit" type="submit" class="btn" value="wyslij">submit</button>
-    </form>	
-    </div>
+        <button name="submit" class="btn btn-primary">Wyślij</button>
+    </form>
 
 
-</form>
+
+
+
+
 
 </body>
 </html>
