@@ -8,23 +8,21 @@
     <title>KONTAKT</title>
 </head>
 <body>
-    KONTAKT
+    
 
 
     <form action="insert.php" method="POST">
-        <div class="">
-            <label>Imię</label>
-            <input class="" name="Imie" placeholder="Imię">
-        </div>
-        <div class="form-group">
-            <label for="exampleInputPassword1">E-mail</label>
-            <input name="E-mail" class="form-control"  placeholder="E-mail">
-        </div>
-        <div class="form-group">
-            <label for="exampleFormControlTextarea1">Co chcesz nam powiedzieć</label>
-            <textarea name="Tekst" class="form-control" rows="3" placeholder="Co masz do powiedzenia"></textarea>
-        </div>
-        <button name="submit" class="btn btn-primary">Wyślij</button>
+        <div class="form-style">
+            <h1>KONTAKT</h1>
+            <input class="form-item" type="text" name="name" placeholder="Imię">
+        
+            
+            <input name="email" type="text" class="form-item"  placeholder="E-mail">
+        
+            <textarea name="message" type="text" class="form-textarea" rows="3" placeholder="Co masz do powiedzenia"></textarea>
+        
+        <input type="submit" name="submit" class="button-send" value="Wyślij">
+    </div>
     </form>
 
 

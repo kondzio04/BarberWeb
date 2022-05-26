@@ -23,7 +23,7 @@ if(isset($_POST['submit']) && !empty($_POST['submit']))
     $message = $_POST['message'];
 
 
-    $insert = mysqli_connect($db, "INSERT INTO 'wiadomosci-jd'('imie', 'email', 'tresc-jd') VALUES ('$name', '$email', '$message')");
+    $insert = mysqli_query($db, "INSERT INTO `wiadomosci-jd`(`imię`, `email`, `tresc-jd`) VALUES ('$name', '$email', '$message')");
 
     if(!$insert){
         printf("Wystąpił błąd %s\n", mysqli_error($link));
