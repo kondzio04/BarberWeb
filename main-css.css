@@ -305,7 +305,7 @@ footer{
     background-image: url(IMAGES/wallpaper-7.png);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 200%;
+    height: 100vh;
     width: 100%;
 }
 

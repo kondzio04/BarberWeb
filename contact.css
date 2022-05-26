@@ -5,14 +5,17 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 	min-height:100vh;
+	
+}
+.main-kontakt{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	flex-direction: column;
+	height: 100%;
 }
 
-
 .form-style{
+	margin-top: 10%;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -34,9 +37,11 @@ body{
 }
 
 .form-item:focus{
-	border-color: #B00000;
+	border-color: #002C85;
 }
-
+.form-item:active{
+	border-color: #002C85;
+}
 
 .form-textarea{
 	border-radius: 25px;
