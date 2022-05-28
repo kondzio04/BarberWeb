@@ -79,7 +79,7 @@ a{
 }
 
 
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 1000px) {
     .main-section{
         flex-direction: column;
         justify-content: center;
@@ -130,6 +130,36 @@ a{
     
 }
 
+
+
+
+
+
+@media screen and (max-width: 1050px) {
+    .traits-begin{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .text-right{
+        margin-left: 0;
+        margin-top: 0;
+        width: 300px;
+    }
+    .button-2{
+        width: 100px;
+        margin-top: 40px;
+    }
+}
+
+
+
+
+
+
+
+
+
 .cechy{
     display: flex;
     justify-content: space-between;
@@ -141,7 +171,7 @@ a{
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: black;
+    color: white;
 }
 
 .icon-1{
@@ -152,10 +182,17 @@ a{
 .button-1{
     width: 33%;
     height: 200%;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(65, 65, 65);
+    
 
 }
 
-
+.button-1:hover{
+    background-color: rgb(29, 29, 29);
+    
+}
 
 
 .button-2{
@@ -166,6 +203,7 @@ a{
     width: 300px;
     height: 45px;
     font-size: 17px;
+    border-radius: 10px;
     
 }
 
@@ -188,6 +226,7 @@ a{
 
 .more-text{
     margin: 2%;
+    margin-top: 5%;
     font-size: 30px;
 }
 
@@ -198,13 +237,7 @@ a{
     margin-left: 1%;
 }
 
-.zdj-left{
-    height: 50%;
-    width: 25%;
-    border-radius: 50%;
-    margin: 2%;
 
-}
 
 #main-name{
     
@@ -225,6 +258,20 @@ a{
     flex-direction: row;
 }
 
+
+
+
+
+
+
+
+
+
+.traits-right{
+    height: 100%;
+    background-color: rgb(20, 20, 255);
+}
+
 .tekst-lewy{
     width: 30%;
     height: 40%;
@@ -233,11 +280,16 @@ a{
     color: white;
     padding: 2%;
     margin: 5%;
+    border-radius: 25px;
 }
 
-.traits-right{
-    height: 100%;
-    background-color: rgb(20, 20, 255);
+
+.zdj-left{
+    height: 50%;
+    width: 25%;
+    border-radius: 50%;
+    margin: 2%;
+
 }
 
 
@@ -250,15 +302,37 @@ a{
 }
 
 
+@media screen and (max-width: 1200px) {
+    .zdj-left{
+        display: none;
+    }
+    .traits-left{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .zdj-2137{
+        align-self: auto;
+    }
+    .tekst-lewy{
+        width: 80%;
+        height: 30%;
+    }
+
+
+
+}
 
 
 
 
 
 .map{
-    width: 30%;
+    width: 600px;
     height: 90%;
     border: none;
+    
 }
 
 
@@ -306,7 +380,30 @@ footer{
 
 
 
+@media screen and (max-width: 1100px) {
+    footer{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        padding: 0;
+        justify-content: center;
+        align-items: center;
+    }
 
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/*   !    OFERTA  !       */
 
 .oferta-body{
     background-image: url(IMAGES/wallpaper-7.png);
@@ -316,17 +413,38 @@ footer{
     width: 100%;
 }
 
+
+
+@media screen and (max-height: 800px) {
+    .oferta-body{
+        background-image: url(IMAGES/wallpaper-7.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
+        width: 100%;
+    }
+
+
+}
+
 .oferta{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 
 }
 
 .box{
-    width: 200px;
+    width: 250px;
     height: 200px;
-    background-color: blue;
+    background-color: rgb(94, 94, 94);
     margin: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 25px;
+    opacity: 70%;
 }
 
 .oferta-reszta{
@@ -335,3 +453,52 @@ footer{
     justify-content: center;
     flex-direction: column;
 }
+
+
+.button-3{
+    border: none;
+    background-color: black;
+    color: white;
+    width: 80px;
+    height: 30px;
+    
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+.button-3:hover{
+    background-color: #002C85;
+}
+
+#oferta1{
+    font-size: 3em;
+    font-weight: bolder;
+    padding-bottom: 10px;
+    border-bottom: 3px solid rgb(255, 255, 255);
+    color: white;
+    margin-bottom: 2%;
+    width: 50%;
+    text-align: center;
+}
+
+
+
+
+
+/* PRACOWNICY     */
+
+
+.pracownicy-main{
+    background-image: url(IMAGES/wallpaper-6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+
+
+
+
+
+
+
