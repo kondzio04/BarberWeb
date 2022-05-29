@@ -12,20 +12,28 @@
 <body>
     <section class="section-top">
 
-<header>
-    <nav>
-        <a href="index.html"><img class="logo-name" src="IMAGES-SVG/BARBER.svg"></a>
-        <ul>
-            <li id="element"><a href="oferta.html"><button class="btn">Oferta</button></a></li>
-            <li id="element"><a href="galeria.html"><button class="btn">Galeria</button></a></li>    
-            <li id="element"><a href="pracownicy.html"><button class="btn">Pracownicy</button></a></li>
-            
-        </ul>
-        <button class="btn"><a href="kontakt.html">Kontakt</a></button>
-        
-    </nav>
+        <header>
+            <nav class="nav_checkbox">
+                <a href="index.html"><img class="logo-name" src="IMAGES-SVG/BARBER.svg"></a>
     
-</header>
+                <input type="checkbox" id="tab-nav" class="tab-nav">
+                <label for="tab-nav" class="label">
+                    <div class="burger"></div>
+                    <div class="burger"></div>
+                    <div class="burger"></div>
+                </label>
+    
+                <ul class="content_nav">
+                    <li id="element"><a href="oferta.html"><button class="btn">Oferta</button></a></li>
+                    <li id="element"><a href="galeria.html"><button class="btn">Galeria</button></a></li>    
+                    <li id="element"><a href="pracownicy.html"><button class="btn">Pracownicy</button></a></li>
+                    
+                </ul>
+                <button class="btn content_nav"><a href="kontakt.html">Kontakt</a></button>
+                
+            </nav>
+            
+        </header>
 
 
 <section class="main-section">
@@ -103,19 +111,19 @@
     
     
 <footer>
-<div class="div-footer-left">
+
     <img class="logo-footer" src="IMAGES-SVG/BARBER.svg"/>
 
     
-</div>
+
     
 
     <div>
         <h3>Firma:</h3>
         <ul class="information">
-            <a href="#"><li><img class="icon-2"  src="IMAGES-SVG/shopping-cart-free-icon-font.svg" />Oferta</li></a>
-            <a href="#"><li><img class="icon-2"  src="IMAGES-SVG/picture-free-icon-font.svg" />Galeria</li></a>
-            <a href="#"><li><img class="icon-2"  src="IMAGES-SVG/users-free-icon-font.svg" />Pracownicy</li></a>
+            <a href="oferta.html"><li><img class="icon-2"  src="IMAGES-SVG/shopping-cart-free-icon-font.svg" />Oferta</li></a>
+            <a href="galeria.html"><li><img class="icon-2"  src="IMAGES-SVG/picture-free-icon-font.svg" />Galeria</li></a>
+            <a href="pracownicy.html"><li><img class="icon-2"  src="IMAGES-SVG/users-free-icon-font.svg" />Pracownicy</li></a>
         </ul>
     </div>
 

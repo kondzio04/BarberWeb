@@ -15,19 +15,28 @@
     <section class="pracownicy-main">
 
         <header>
-            <nav>
+            <nav class="nav_checkbox">
                 <a href="index.html"><img class="logo-name" src="IMAGES-SVG/BARBER.svg"></a>
-                <ul>
+    
+                <input type="checkbox" id="tab-nav" class="tab-nav">
+                <label for="tab-nav" class="label">
+                    <div class="burger"></div>
+                    <div class="burger"></div>
+                    <div class="burger"></div>
+                </label>
+    
+                <ul class="content_nav">
                     <li id="element"><a href="oferta.html"><button class="btn">Oferta</button></a></li>
                     <li id="element"><a href="galeria.html"><button class="btn">Galeria</button></a></li>    
                     <li id="element"><a href="pracownicy.html"><button class="btn">Pracownicy</button></a></li>
                     
                 </ul>
-                <button class="btn"><a href="kontakt.html">Kontakt</a></button>
+                <button class="btn content_nav"><a href="kontakt.html">Kontakt</a></button>
                 
             </nav>
             
         </header>
+        
 
         <section class="pracownicy-kontener">
 
